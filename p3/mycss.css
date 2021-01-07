@@ -1,0 +1,25 @@
+#unit
+{
+    color:black;
+    text-align: center;
+}
+#welcome
+{
+    font-size: 22px;
+}
+
+#calculate 
+{
+    background: #f47a42;
+    font-size: 20px;
+    border: black;
+        color:black;
+}
+#footertext
+{
+    color:white;
+}
+a
+{
+    color:orange;
+}

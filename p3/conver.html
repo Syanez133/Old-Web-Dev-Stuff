@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>JavaScript Temperature Converter</title>
+  </head>
+  <body>
+    <h1>Temperature Conversion</h1>
+    <p>
+       <input type="text" id="unit" />
+      <input type="radio" id="m_to_km" name = "units" value="M_to_KM" checked/> Meters to Kilometers
+      <input type="radio" id="km_to_m" name = "units" value="KM_to_M" /> Kilometers to Meters
+      <input type="radio" id="m_to_miles" name = "units"  value="M_to_MILES" /> Meters to Miles
+      <input type="radio" id="miles_to_m" name = "units"  value="MILES_to_M"/>Miles to Meters<br>
+      <input type="button" id="calculate" name = "calculate"  value="Calculate"/>
+    </p>
+    <p id="result"></p>
+    <script src="converter.js"></script>
+  </body>
+</html>
